@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "clear"
+version = "0.1.0"
+description = ""
+authors = ["fitolobo <rodolfolobo@ug.uchile.cl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scikit-learn = "^1.6.1"
+tensorflow = "^2.18.0"
+pandas = "^2.2.3"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+matplotlib = "^3.10.0"
+librosa = "^0.10.2.post1"
+tqdm = "^4.67.1"
+streamlit = "^1.41.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

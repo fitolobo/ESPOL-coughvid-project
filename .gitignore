@@ -1,0 +1,38 @@
+# Folders to ignore
+dataset/
+preprocessed_dataset/
+images/
+logs/
+virufy/
+tos_covid_19/
+**/__pycache__/
+replicas/proyecto_replica_0/data/
+replicas/proyecto_replica_0/checkpoints/
+replicas/proyecto_replica_0/coughvid/  # Añadir esta línea para ignorar el entorno virtual
+
+# Virtual environment
+venv/
+env/
+.env/
+.venv/
+**/coughvid/
+**/*.dylib
+**/site-packages/
+
+# File types to ignore
+*.pth
+*.mp3
+*.csv
+*.wav
+*.npz
+*.pkl
+*.pyc
+*.keras
+*.zip
+*.dylib
+*.so
+*.dll
+
+# Keep app folder and its contents
+!app/
+!app/**/*

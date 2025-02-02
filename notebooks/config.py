@@ -1,0 +1,6 @@
+SAMPLE_RATE = 22050
+DURATION = 5  # duración en segundos
+N_MELS = 128
+N_FFT = 2048
+HOP_LENGTH = 512
+BATCH_SIZE = 32
