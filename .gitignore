@@ -4,6 +4,7 @@ preprocessed_dataset/*
 images/*
 /logs
 /virufy
+/coughvid
 replicas/proyecto_replica_0/data/tos_covid_19/*
 replicas/proyecto_replica_0/data/kaggle/*
 
