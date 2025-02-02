@@ -15,8 +15,21 @@ replicas/proyecto_replica_0/checkpoints/
 # Ignore file types
 *.pth
 *.mp3
+*.m4a
 *.csv
 *.wav
 *.npz
 *.pth
 
+venv/
+env/
+.env/
+**/site-packages/
+*.dylib
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
