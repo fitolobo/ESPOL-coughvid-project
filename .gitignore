@@ -4,7 +4,8 @@ preprocessed_dataset/*
 images/*
 /logs
 /virufy
-/tos_covid_19
+replicas/proyecto_replica_0/data/tos_covid_19/*
+replicas/proyecto_replica_0/data/kaggle/*
 
 # Ignore file types
 *.pth
@@ -12,7 +13,4 @@ images/*
 *.csv
 *.wav
 *.npz
-
-# Keep the app folder and its contents
-!app/
-!app/**
+*.pth
