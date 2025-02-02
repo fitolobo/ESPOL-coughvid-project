@@ -5,8 +5,12 @@ images/*
 /logs
 /virufy
 /coughvid
-replicas/proyecto_replica_0/data/tos_covid_19/*
-replicas/proyecto_replica_0/data/kaggle/*
+**/__pycache__/
+replicas/proyecto_replica_0/data/
+replicas/proyecto_replica_0/checkpoints/
+/tos_covid_19
+/kaggle
+/virufy
 
 # Ignore file types
 *.pth
@@ -15,3 +19,4 @@ replicas/proyecto_replica_0/data/kaggle/*
 *.wav
 *.npz
 *.pth
+
