@@ -46,8 +46,10 @@ Modelo con mejores métricas:
 
 ## Autores 
 
-**Profesor Orientador**: Rodolfo Anibal Lobo
+**Profesores Orientadores**: Rodolfo Anibal Lobo, Enrique López
 
 **Estudiante**: Joel Castro
 
 **Institución**: Escuela Superior Politécnica del Litoral (ESPOL)
+
+**Link**: [LINK TESIS](https://www.dspace.espol.edu.ec/handle/123456789/65681)
