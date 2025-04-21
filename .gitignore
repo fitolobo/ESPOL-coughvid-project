@@ -36,3 +36,5 @@ env/
 # Keep app folder and its contents
 !app/
 !app/**/*
+*.lock
+*.pyc
