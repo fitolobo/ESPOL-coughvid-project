@@ -1,9 +1,12 @@
 ## Código utilizado para sustentar el trabajo: "Clasificación Automatizada de Toses para Diagnósticos de COVID-19 usando Redes Neuronales Convolucionales" (2025)
 
-Utilizando ideas de diferentes repositorios, se construye una nueva arquitectura que paraleliza la extracción de convoluciones y características del audio (centroides, energía etc) concatenando en capas internas esta información para construir un clasificador binario. El trabajo es una primera etapa que simplemente evalúa la capacidad del modelo de generalizar la clasificación entre toses y distinguir patrones diferenciales para el caso covid. No se añade la clase neutral ni otro tipo de datos como sintomatología, grupo etario etc. Se obtuvieron resultados superiores al 90% de *accuracy* verificando la eficiencia de concatenar información en 1 y 2 dimensiones. 
+Utilizando ideas de diferentes repositorios, se construye una nueva arquitectura que paraleliza la extracción de convoluciones y características del audio (centroides, energía etc) concatenando en capas internas esta información para construir un clasificador binario. El trabajo es una primera etapa que simplemente evalúa la capacidad del modelo de generalizar la clasificación entre toses y distinguir patrones diferenciales para el caso covid. No se añade la clase neutral ni otro tipo de datos como sintomatología, grupo etario etc. Se obtuvieron resultados entorno del 90% de *accuracy* verificando la eficiencia de concatenar información en una y dos dimensiones. El trabajo fue reconocido en la Escuela Politecnica del Litoral (ESPOL) con  el primer lugar en el concurso *5MinPitch*.
 
-Se ha disponibilizado una pequeña aplicación para testear el modelo entrenado.
-Si necesitas los pesos del modelo enviar un correo a *rodolfolobo@ug.uchile.cl*
+La arquitectura del modelo se puede representar mediante el siguiente diagrama
+
+![](/images/arquitectura.png)
+
+Se ha disponibilizado una pequeña aplicación para testear el modelo entrenado. Si necesitas los pesos del modelo enviar un correo a *rodolfolobo@ug.uchile.cl*
 
 ### Aplicación
 ![](/images/app.png)
@@ -32,14 +35,14 @@ Uso de notebooks:
 
 Modelo con mejores métricas: 
 
-- [LINK](https://github.com/mrzaizai2k/Coughvid-19-CRNN-attention/blob/main/coughvid-19-crnn-attention.ipynb)
+- [LINK 1](https://github.com/mrzaizai2k/Coughvid-19-CRNN-attention/blob/main/coughvid-19-crnn-attention.ipynb)
 
-- [LINK](https://github.com/Klangio/covid-19-cough-classification)
+- [LINK 2](https://github.com/Klangio/covid-19-cough-classification)
 
 - [LINK 3](https://pub.towardsai.net/how-did-binary-cross-entropy-loss-come-into-existence-68e38509d2b)
 
 ### Chromagram 
-[LINK Imagen!](https://en.wikipedia.org/wiki/Chroma_feature#/media/File:ChromaFeatureCmajorScaleScoreAudioColor.png)
+[LINK](https://en.wikipedia.org/wiki/Chroma_feature#/media/File:ChromaFeatureCmajorScaleScoreAudioColor.png)
 
 
 ## Autores 
