@@ -1,7 +1,6 @@
 # Folders to ignore
 dataset/
 preprocessed_dataset/
-images/
 logs/
 virufy/
 tos_covid_19/
