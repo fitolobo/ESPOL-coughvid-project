@@ -6,6 +6,8 @@ La arquitectura del modelo se puede representar mediante el siguiente diagrama
 
 ![](/images/arquitectura.png)
 
+El modelo se encuentra en ```app/models.py```, respetando las dimensiones y parámetros del preprocesamiento dentro de notebooks es posible replicar los resultados obtenidos. 
+
 Se ha disponibilizado una pequeña aplicación para testear el modelo entrenado. Si necesitas los pesos del modelo enviar un correo a *rodolfolobo@ug.uchile.cl*
 
 ### Aplicación
@@ -15,9 +17,9 @@ Se ha disponibilizado una pequeña aplicación para testear el modelo entrenado.
 
 Uso de notebooks: 
 
-1 - ```data_analysis.ipynb```: te permitirá obtener visualizaciones y estadísticas de los datos contenidos en el dataset. 
+- ```data_analysis.ipynb```: te permitirá obtener visualizaciones y estadísticas de los datos contenidos en el dataset. 
 
-2 - ```training_a_model.ipynb```: es un ejemplo de como entrenar un modelo con estos datos. 
+- ```train.ipynb```: notebook de entrenamiento. Contiene el paso a paso del proceso, desde la carga de los datos hasta la evaluación.
 
 
 ### Links de referencia para transformaciones y análisis de los datos
@@ -31,9 +33,7 @@ Uso de notebooks:
 - [LINK](https://www.kaggle.com/code/sidwc121/covid-cough-positive-extraction)
 
 
-### Ideas para aplicar - estudiar 
-
-Modelo con mejores métricas: 
+### Modelos y procesos de referencia
 
 - [LINK 1](https://github.com/mrzaizai2k/Coughvid-19-CRNN-attention/blob/main/coughvid-19-crnn-attention.ipynb)
 
@@ -41,7 +41,7 @@ Modelo con mejores métricas:
 
 - [LINK 3](https://pub.towardsai.net/how-did-binary-cross-entropy-loss-come-into-existence-68e38509d2b)
 
-### Chromagram 
+### Transformación Chromagram 
 [LINK](https://en.wikipedia.org/wiki/Chroma_feature#/media/File:ChromaFeatureCmajorScaleScoreAudioColor.png)
 
 
