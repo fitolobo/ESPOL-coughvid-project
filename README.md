@@ -38,8 +38,6 @@ Modelo con mejores métricas:
 
 - [LINK 3](https://pub.towardsai.net/how-did-binary-cross-entropy-loss-come-into-existence-68e38509d2b)
 
-- [LINK 4](⁠https://gombru.github.io/2018/05/23/cross_entropy_loss/)
-
 ### Chromagram 
 [LINK Imagen!](https://en.wikipedia.org/wiki/Chroma_feature#/media/File:ChromaFeatureCmajorScaleScoreAudioColor.png)
 
