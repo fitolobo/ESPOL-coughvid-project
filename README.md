@@ -51,3 +51,5 @@ Modelo con mejores métricas:
 **Institución**: Escuela Superior Politécnica del Litoral (ESPOL)
 
 **Link**: [LINK TESIS](https://www.dspace.espol.edu.ec/handle/123456789/65681)
+
+**Link**: [Acreditación de Colaboración](images/Carta%20de%20certificación%20para%20Proyectos%20PhD%20Enrique%20Lopez-signed.pdf)
